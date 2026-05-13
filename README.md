@@ -127,6 +127,7 @@ jupyter notebook
 ├── images/
 ├── churn_rfm_analysis.ipynb
 ├── README.md
+
 📌 Future Improvements
 Add XGBoost / LightGBM models
 Use ROC-AUC for better evaluation
