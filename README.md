@@ -1,139 +1,160 @@
-📊 Customer Churn Prediction using RFM Analysis
-🧠 Project Overview
+# 📊 Customer Churn Prediction using RFM Analysis
 
-This project analyzes online retail customer behavior using RFM (Recency, Frequency, Monetary) analysis and applies machine learning models to predict customer churn.
+## 🧠 Project Overview
 
-The goal is to identify customers who are likely to stop purchasing and understand the key behavioral factors behind churn.
+This project analyzes online retail customer behavior using RFM (Recency, Frequency, Monetary) analysis and machine learning models to predict customer churn.
 
-📁 Dataset
+The objective is to identify customers who are likely to stop purchasing and understand the key behavioral factors behind churn.
 
-The dataset used is the Online Retail II dataset, which contains transactional data of an online retail store including:
+---
 
-Invoice number
-Product details
-Quantity
-Invoice date
-Price
-Customer ID
-Country
-🎯 Objective
-Perform customer segmentation using RFM analysis
-Define and identify customer churn
-Build predictive models for churn classification
-Evaluate model performance using real-world methodology
-Identify key drivers of churn behavior
-🧹 Data Preprocessing
-Removed missing Customer IDs
-Handled missing product descriptions
-Filtered invalid transactions (Quantity ≤ 0, Price ≤ 0)
-Created total purchase value (TotalPrice)
-Converted date fields to datetime format
-📊 RFM Feature Engineering
+## 📁 Dataset
 
-For each customer, the following features were computed:
+Dataset used: Online Retail II Dataset
 
-Recency → Days since last purchase
-Frequency → Number of unique purchases
-Monetary → Total spending
+The dataset contains:
 
-Churn definition (baseline approach):
+- Invoice numbers
+- Product details
+- Quantity purchased
+- Invoice dates
+- Product prices
+- Customer IDs
+- Country information
 
-Customers with Recency > 90 days were labeled as churned.
+---
 
-📉 Exploratory Data Analysis (EDA)
+## 🎯 Objectives
+
+- Perform customer segmentation using RFM analysis
+- Identify customer churn behavior
+- Build machine learning models for churn prediction
+- Evaluate model performance
+- Analyze key drivers of churn
+
+---
+
+## 🧹 Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Removed missing customer IDs
+- Handled missing product descriptions
+- Filtered invalid transactions
+- Created total purchase value feature
+- Converted date columns to datetime format
+
+---
+
+## 📊 RFM Feature Engineering
+
+The following customer metrics were calculated:
+
+- **Recency** → Days since last purchase
+- **Frequency** → Number of purchases
+- **Monetary** → Total customer spending
+
+Initial churn definition:
+
+- Customers with Recency greater than 90 days were labeled as churned.
+
+---
+
+## 📉 Exploratory Data Analysis
 
 Key insights:
 
-Most customers are recently active
-Revenue is highly skewed (few customers contribute most revenue)
-Strong relationship between frequency and monetary value
-Higher recency is associated with lower spending
+- Most customers are recently active
+- Revenue is highly skewed
+- High-frequency customers tend to spend more
+- Higher recency is associated with lower spending
 
-Visualizations include:
+Visualizations included:
 
-Histograms (Recency, Frequency, Monetary)
-Scatter plots (feature relationships)
-Correlation heatmap
-🤖 Machine Learning Models
-1. Logistic Regression (Baseline Model)
-Used RFM features as inputs
-Achieved near-perfect accuracy due to target leakage
-Highlighted importance of proper feature-target separation
-2. Time-Based Churn Modeling (Improved Approach)
+- Histograms
+- Scatter plots
+- Correlation heatmap
+- Confusion matrix
+- Feature importance chart
 
-To simulate a real-world scenario:
+---
 
-Dataset split based on time
-Churn defined using future customer activity
-Prevented data leakage
-3. Random Forest Classifier
+## 🤖 Machine Learning Models
 
-Final model used:
+### Logistic Regression
 
-Features: Frequency, Monetary
-Target: Future-based churn label
-📈 Model Evaluation
-Random Forest Results
-Accuracy: ~0.58
-Moderate precision and recall
-More realistic performance compared to baseline model
-Confusion Matrix
+A baseline Logistic Regression model was trained using RFM features.
 
-The model shows:
+The model achieved near-perfect accuracy due to target leakage because churn was directly derived from Recency.
 
-Reasonable churn detection capability
-Some misclassification between churned and active customers
-🔍 Feature Importance
+### Random Forest Classifier
 
-Most important features for churn prediction:
+A more realistic time-based churn prediction approach was implemented using:
 
-Monetary Value (dominant factor)
-Frequency
+- Frequency
+- Monetary
 
-Insight:
+This model produced more realistic churn predictions.
 
-High-value customers behave differently and are key drivers of churn prediction.
+---
 
-⚠️ Key Insight: Target Leakage
+## 📈 Model Results
 
-The initial Logistic Regression model showed artificially perfect accuracy because:
+### Random Forest Performance
 
-Churn was directly derived from Recency
-Recency was also used as an input feature
+- Accuracy: ~0.58
+- Moderate precision and recall
+- More realistic than the baseline model
 
-This led to target leakage, which was corrected in the improved model.
+### Feature Importance
 
-📌 Business Insights
-High-value customers are the most critical segment to retain
-Low-frequency customers are more likely to churn
-Engagement and repeat purchases strongly influence retention
-Monetary behavior is the strongest predictor of churn
-🛠️ Tech Stack
-Python
-Pandas, NumPy
-Matplotlib, Seaborn
-Scikit-learn
-🚀 How to Run This Project
-git clone https://github.com/yourusername/churn-rfm-analysis.git
-cd churn-rfm-analysis
-pip install -r requirements.txt
+Most important churn predictors:
 
-Run the notebook:
+1. Monetary value
+2. Frequency
 
-jupyter notebook
-📊 Project Structure
-├── data/
-├── notebooks/
-├── images/
+---
+
+## 📌 Business Insights
+
+- High-value customers are critical to retain
+- Low-frequency customers are more likely to churn
+- Customer engagement strongly impacts retention
+- Spending behavior is a strong churn indicator
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📂 Repository Structure
+
+```text
 ├── churn_rfm_analysis.ipynb
+├── presentation.pptx
 ├── README.md
+```
 
-📌 Future Improvements
-Add XGBoost / LightGBM models
-Use ROC-AUC for better evaluation
-Try clustering-based customer segmentation
-Deploy model as a dashboard (Streamlit)
+---
 
-👤 Author
+## 🚀 Future Improvements
+
+- Add XGBoost or LightGBM models
+- Use ROC-AUC evaluation metrics
+- Build interactive dashboards
+- Deploy as a Streamlit app
+
+---
+
+## 👤 Author
+
 Kulwinder Bhamra
-Data Science & Machine Learning Enthusiast
