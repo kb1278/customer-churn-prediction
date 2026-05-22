@@ -136,13 +136,7 @@ Most important churn predictors:
 
 ---
 
-## 📂 Repository Structure
 
-```text
-├── churn_rfm_analysis.ipynb
-├── presentation.pptx
-├── README.md
-```
 
 ---
 
