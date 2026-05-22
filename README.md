@@ -134,8 +134,6 @@ Most important churn predictors:
 - Scikit-learn
 - Jupyter Notebook
 
----
-
 
 
 ---
