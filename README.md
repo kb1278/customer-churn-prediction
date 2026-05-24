@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction & Interactive Dashboard
+# 📊 Customer Churn Prediction using RFM Analysis
 
 ## 🧠 Project Overview
 
