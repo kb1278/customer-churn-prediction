@@ -158,8 +158,18 @@ The application loads a saved machine learning model (`rf_model.pkl`) and genera
 
 ## 📸 Dashboard Preview
 
+<img width="1140" height="614" alt="Screenshot 2026-05-25 002058" src="https://github.com/user-attachments/assets/3456e4c4-590e-4960-b8ab-e885b513ffb3" />
+
+
 ![Dashboard Preview](dashboard_preview.png)
 
+---
+
+## 📽️ Presentation
+
+A PowerPoint slide deck was created to communicate insights to a non-technical audience.
+
+📎 File: `Customer_Churn_Presentation.pptx`
 ---
 
 ## 🛠️ Technologies Used
@@ -188,6 +198,10 @@ The application loads a saved machine learning model (`rf_model.pkl`) and genera
 - Jupyter Notebook
 - Git
 - GitHub
+
+
+### Business Communication
+- Microsoft PowerPoint (presentation of insights and recommendations)
 
 ---
 
