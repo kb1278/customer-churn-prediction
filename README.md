@@ -234,17 +234,6 @@ A PowerPoint slide deck was created to communicate insights to a non-technical a
 
 ---
 
-## 📂 Project Structure
-
-```text
-customer-churn-prediction/
-│
-├── customer_churn_prediction.ipynb
-├── app.py
-├── rf_model.pkl
-├── dashboard_preview.png
-└── README.md
-```
 
 ---
 
