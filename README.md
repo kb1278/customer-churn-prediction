@@ -169,25 +169,32 @@ The application loads a saved machine learning model (`rf_model.pkl`) and genera
 ---
 ## 🚀 Running the Streamlit Application
 
-### 1. Install required packages
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kb1278/customer-churn-prediction.git
+cd customer-churn-prediction
+```
+
+### 2. Install required packages
 
 ```bash
 pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib
 ```
 
-### 2. Run the application
+### 3. Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-### 3. Open in your browser
+### 4. Open in your browser
 
 ```text
 http://localhost:8501
+
 ```
 
----
 
 
 ## 📽️ Presentation
