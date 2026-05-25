@@ -62,7 +62,6 @@ Number of unique purchases made by each customer.
 
 ### Monetary
 Total amount spent by each customer.
-
 These metrics provide a concise representation of customer engagement and value.
 
 ---
@@ -201,7 +200,7 @@ http://localhost:8501
 
 A PowerPoint slide deck was created to communicate insights to a non-technical audience.
 
-📎 File: `Customer Churn.pptx`
+### 📎 File: `Customer Churn.pptx`
 ---
 
 ## 🛠️ Technologies Used
