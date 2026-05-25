@@ -161,7 +161,7 @@ The application loads a saved machine learning model (`rf_model.pkl`) and genera
 <img width="1140" height="614" alt="Screenshot 2026-05-25 002058" src="https://github.com/user-attachments/assets/3456e4c4-590e-4960-b8ab-e885b513ffb3" />
 
 
-![Dashboard Preview](dashboard_preview.png)
+
 
 ---
 
