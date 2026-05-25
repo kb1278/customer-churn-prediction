@@ -169,7 +169,7 @@ The application loads a saved machine learning model (`rf_model.pkl`) and genera
 
 A PowerPoint slide deck was created to communicate insights to a non-technical audience.
 
-📎 File: `Customer_Churn_Presentation.pptx`
+📎 File: `Customer Churn.pptx`
 ---
 
 ## 🛠️ Technologies Used
