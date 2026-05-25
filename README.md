@@ -271,6 +271,4 @@ Based on the analysis:
 
 ---
 
-## 👤 Author
 
-**Kulwinder Bhamra**
