@@ -201,7 +201,8 @@ http://localhost:8501
 
 A PowerPoint slide deck was created to communicate insights to a non-technical audience.
 
-### 📎 File: `Customer Churn.pptx`
+ 📎 File: `Customer Churn.pptx`
+
 ---
 
 ## 🛠️ Technologies Used
