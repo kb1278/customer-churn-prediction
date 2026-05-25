@@ -153,6 +153,26 @@ An interactive Streamlit application was developed to make churn predictions acc
 - Machine learning model integration using a trained Random Forest classifier
 
 The application loads a saved machine learning model (`rf_model.pkl`) and generates predictions instantly based on user inputs.
+---
+## 🚀 Running the Streamlit Application
+
+### 1. Install required packages
+
+```bash
+pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib
+```
+
+### 2. Run the application
+
+```bash
+streamlit run app.py
+```
+
+### 3. Open in your browser
+
+```text
+http://localhost:8501
+```
 
 ---
 
