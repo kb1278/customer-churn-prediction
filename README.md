@@ -174,7 +174,6 @@ streamlit run app.py
 http://localhost:8501
 ```
 
----
 
 ## 📸 Dashboard Preview
 
@@ -183,6 +182,25 @@ http://localhost:8501
 
 
 
+---
+## 🚀 Running the Streamlit Application
+
+### 1. Install required packages
+
+```bash
+pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib
+```
+
+### 2. Run the application
+
+```bash
+streamlit run app.py
+```
+
+### 3. Open in your browser
+
+```text
+http://localhost:8501
 ---
 
 ## 📽️ Presentation
