@@ -225,8 +225,6 @@ A PowerPoint slide deck was created to communicate insights to a non-technical a
 - GitHub
 
 
-### Business Communication
-- Microsoft PowerPoint (presentation of insights and recommendations)
 
 ---
 
