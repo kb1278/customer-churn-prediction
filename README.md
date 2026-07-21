@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction using RFM Analysis
+# 📊 Customer Churn Prediction Using RFM Analysis
 
 ## 🧠 Project Overview
 
@@ -22,7 +22,7 @@ The dataset contains transactional records from an online retailer, including:
 - Customer IDs
 - Country information
 
-The dataset consists of over 500,000 retail transactions and thousands of unique customers.
+The dataset contains over 500,000 retail transactions and thousands of unique customers.
 
 ---
 
@@ -32,7 +32,7 @@ The dataset consists of over 500,000 retail transactions and thousands of unique
 - Identify characteristics of customers likely to churn
 - Build machine learning models to predict churn risk
 - Evaluate model performance using realistic validation methods
-- Develop an interactive dashboard for real-time churn prediction
+- Develop an interactive dashboard for customer churn prediction
 - Generate business insights to support customer retention efforts
 
 ---
