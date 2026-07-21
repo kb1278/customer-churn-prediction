@@ -114,12 +114,15 @@ This approach better reflects real-world customer churn prediction scenarios.
 ### Random Forest Results
 
 | Metric | Value |
-|----------|----------|
+|---|---:|
 | Accuracy | ~63% |
+| ROC-AUC | 0.671 |
 | Validation Method | Time-Based Split |
 | Features Used | Frequency, Monetary |
 
-The Random Forest model produced substantially more realistic performance compared with the baseline Logistic Regression model.
+The Random Forest model achieved a ROC-AUC score of **0.671**, indicating a moderate ability to distinguish between customers likely to churn and those likely to remain active.
+
+The model was evaluated using a chronological validation approach, providing a more realistic estimate of performance on future customer behaviour.
 
 ---
 
