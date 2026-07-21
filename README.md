@@ -94,7 +94,7 @@ Several visualisations were created to understand customer behaviour patterns:
 
 A Logistic Regression model was initially trained using Recency, Frequency, and Monetary features.
 
-The model achieved near-perfect accuracy because churn labels were directly derived from Recency, creating target leakage and unrealistic performance estimates.
+The model achieved near-perfect accuracy because the churn labels were directly derived from Recency. This created target leakage and resulted in an unrealistic estimate of model performance.
 
 ### Random Forest Classifier (Improved Approach)
 
