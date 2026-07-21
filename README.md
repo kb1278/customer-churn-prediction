@@ -147,7 +147,7 @@ An interactive Streamlit application was developed to make churn predictions acc
 
 ### Dashboard Features
 
-- Real-time churn prediction
+- Interactive churn prediction
 - Customer purchase frequency input
 - Customer spending value input
 - Churn probability estimation
