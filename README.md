@@ -141,13 +141,13 @@ Feature importance analysis identified the most influential predictors of custom
 
 ---
 
-## 🌐 Interactive Streamlit Dashboard
+## 🌐 Streamlit Dashboard
 
 An interactive Streamlit application was developed to make churn predictions accessible through a simple user interface.
 
 ### Dashboard Features
 
-- churn prediction
+- Churn prediction
 - Customer purchase frequency input
 - Customer spending value input
 - Churn probability estimation
