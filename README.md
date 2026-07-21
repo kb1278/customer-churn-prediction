@@ -253,7 +253,6 @@ Based on the analysis:
 - Deploy the dashboard using Streamlit Community Cloud
 - Experiment with XGBoost and LightGBM models
 - Incorporate additional behavioural features
-- Implement ROC-AUC and precision-recall evaluation metrics
 - Add customer segmentation visualisations to the dashboard
 - Build a full business intelligence dashboard in Power BI
 
